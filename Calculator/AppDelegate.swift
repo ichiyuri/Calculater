@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Calculator
-//
-//  Created by 市原悠理 on 2018/11/16.
-//  Copyright © 2018年 Yuri ichihara. All rights reserved.
-//
+
 
 import UIKit
 

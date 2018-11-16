@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6AA2050C219E618A001CF424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2050B219E618A001CF424 /* AppDelegate.swift */; };
-		6AA2050E219E618A001CF424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2050D219E618A001CF424 /* ViewController.swift */; };
 		6AA20511219E618A001CF424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2050F219E618A001CF424 /* Main.storyboard */; };
 		6AA20513219E618A001CF424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA20512219E618A001CF424 /* Assets.xcassets */; };
 		6AA20516219E618A001CF424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA20514219E618A001CF424 /* LaunchScreen.storyboard */; };
+		6AA2051E219E7865001CF424 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2051D219E7865001CF424 /* ResultViewController.swift */; };
+		6AA20520219E9532001CF424 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2051F219E9532001CF424 /* PercentViewController.swift */; };
+		6AA20526219E9D29001CF424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA20525219E9D29001CF424 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6AA20508219E6189001CF424 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA2050B219E618A001CF424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AA2050D219E618A001CF424 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AA20510219E618A001CF424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AA20512219E618A001CF424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AA20515219E618A001CF424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA20517219E618A001CF424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA2051D219E7865001CF424 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		6AA2051F219E9532001CF424 /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		6AA20525219E9D29001CF424 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		6AA2050A219E6189001CF424 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6AA2051D219E7865001CF424 /* ResultViewController.swift */,
+				6AA20525219E9D29001CF424 /* ViewController.swift */,
 				6AA2050B219E618A001CF424 /* AppDelegate.swift */,
-				6AA2050D219E618A001CF424 /* ViewController.swift */,
 				6AA2050F219E618A001CF424 /* Main.storyboard */,
+				6AA2051F219E9532001CF424 /* PercentViewController.swift */,
 				6AA20512219E618A001CF424 /* Assets.xcassets */,
 				6AA20514219E618A001CF424 /* LaunchScreen.storyboard */,
 				6AA20517219E618A001CF424 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA2050E219E618A001CF424 /* ViewController.swift in Sources */,
 				6AA2050C219E618A001CF424 /* AppDelegate.swift in Sources */,
+				6AA20520219E9532001CF424 /* PercentViewController.swift in Sources */,
+				6AA20526219E9D29001CF424 /* ViewController.swift in Sources */,
+				6AA2051E219E7865001CF424 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
